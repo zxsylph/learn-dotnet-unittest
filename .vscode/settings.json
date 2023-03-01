@@ -1,0 +1,9 @@
+{
+	"editor.fontFamily": "Source Code Pro",
+	"editor.fontSize": 14,
+	"editor.wordWrap": "on",
+	"editor.formatOnSave": true,
+	"gitlens.codeLens.enabled": false,
+	"git.autofetch": true,
+	"git.autofetchPeriod": 180
+}
