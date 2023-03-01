@@ -1,0 +1,115 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "dotnet-serve/1.10.155": {
+        "type": "package"
+      }
+    },
+    "net6.0/any": {
+      "dotnet-serve/1.10.155": {
+        "type": "package",
+        "tools": {
+          "tools/net6.0/any/BouncyCastle.Crypto.dll": {},
+          "tools/net6.0/any/DotNetConfig.dll": {},
+          "tools/net6.0/any/DotnetToolSettings.xml": {},
+          "tools/net6.0/any/McMaster.Extensions.CommandLineUtils.dll": {},
+          "tools/net6.0/any/Yarp.ReverseProxy.dll": {},
+          "tools/net6.0/any/dotnet-serve.deps.json": {},
+          "tools/net6.0/any/dotnet-serve.dll": {},
+          "tools/net6.0/any/dotnet-serve.runtimeconfig.json": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "dotnet-serve/1.10.155": {
+      "sha512": "HPZwSJgvm4QH6+QCnTIp2YBBuIQoWjvxWG0MWzshMm/1yevTDPr6NwSjX6S6hxDtOgJELt4IHS6lhyccWppC/Q==",
+      "type": "package",
+      "path": "dotnet-serve/1.10.155",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "dotnet-serve.1.10.155.nupkg.sha512",
+        "dotnet-serve.nuspec",
+        "tools/net6.0/any/BouncyCastle.Crypto.dll",
+        "tools/net6.0/any/DotNetConfig.dll",
+        "tools/net6.0/any/DotnetToolSettings.xml",
+        "tools/net6.0/any/McMaster.Extensions.CommandLineUtils.dll",
+        "tools/net6.0/any/Yarp.ReverseProxy.dll",
+        "tools/net6.0/any/dotnet-serve.deps.json",
+        "tools/net6.0/any/dotnet-serve.dll",
+        "tools/net6.0/any/dotnet-serve.runtimeconfig.json"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "dotnet-serve >= *"
+    ]
+  },
+  "packageFolders": {
+    "/home/ylnq/Works/code/learn-dotnet-unittest/tools/.store/.stage/gd3zb2rs.nin": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/tmp/e522103a-b1b8-4592-8373-906e06a515d5/restore.csproj",
+      "projectName": "restore",
+      "projectPath": "/tmp/e522103a-b1b8-4592-8373-906e06a515d5/restore.csproj",
+      "packagesPath": "/home/ylnq/Works/code/learn-dotnet-unittest/tools/.store/.stage/gd3zb2rs.nin",
+      "outputPath": "/home/ylnq/Works/code/learn-dotnet-unittest/tools/.store/.stage/gd3zb2rs.nin/",
+      "projectStyle": "DotnetToolReference",
+      "configFilePaths": [
+        "/home/ylnq/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "dotnet-serve": {
+            "target": "Package",
+            "version": "[*, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.406/RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "any": {
+        "#import": []
+      }
+    }
+  }
+}
